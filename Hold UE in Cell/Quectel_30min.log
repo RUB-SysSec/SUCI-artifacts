@@ -1,0 +1,22 @@
+time="2021-03-25T02:18:16+01:00" level=info msg="Send Downlink Nas Transport" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=debug msg="Send NGAP message To Ran" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=debug msg="Write 66 bytes" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=warning msg="SUCI-Catcher: send Probe Request #194" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=info msg="Handle Uplink Nas Transport" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=info msg="Uplink NAS Transport (RAN UE NGAP ID: 4)" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=debug msg="GmmMessageEvent at GMM State[Authentication]" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=info msg="Handle Authentication Failure" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=warning msg="SUCI-Catcher: MAC Failure, UE is not the guy we're looking for." amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=debug msg="AuthRestartEvent at GMM State[Authentication]" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=info msg="Authentication procedure" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=debug msg="UE has SUCI / SUPI" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=warning msg="SUCI-Catcher: requesting valid authentication for connected UE" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=info msg="Send Downlink Nas Transport" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=debug msg="Send NGAP message To Ran" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=debug msg="Write 66 bytes" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=info msg="Handle Uplink Nas Transport" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=info msg="Uplink NAS Transport (RAN UE NGAP ID: 4)" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=NGAP component=AMF ran_addr="10.200.200.8:57986"
+time="2021-03-25T02:18:16+01:00" level=debug msg="GmmMessageEvent at GMM State[Authentication]" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=info msg="Handle Authentication Response" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=warning msg="SUCI-Catcher: Forwarding Auth Reponse to real network" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF
+time="2021-03-25T02:18:16+01:00" level=warning msg="SUCI-Catcher: Probe for random UE" amf_ue_ngap_id="AMF_UE_NGAP_ID:1" category=GMM component=AMF

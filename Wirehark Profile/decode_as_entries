@@ -1,0 +1,14 @@
+# "Decode As" entries file for Wireshark 3.4.3.
+#
+# This file is regenerated each time "Decode As" preferences
+# are saved within Wireshark. Making manual changes should be safe,
+# however.
+decode_as_entry: tcp.port,29502,(none),HTTP2
+decode_as_entry: tcp.port,29503,(none),HTTP2
+decode_as_entry: tcp.port,29504,(none),HTTP2
+decode_as_entry: tcp.port,29507,(none),HTTP2
+decode_as_entry: tcp.port,29509,(none),HTTP2
+decode_as_entry: tcp.port,29510,(none),HTTP2
+decode_as_entry: tcp.port,29518,(none),HTTP2
+decode_as_entry: tcp.port,29531,(none),HTTP2
+decode_as_entry: tcp.port,8000,(none),HTTP2

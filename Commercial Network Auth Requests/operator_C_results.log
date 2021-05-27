@@ -1,0 +1,786 @@
+11:40:16.472298 [Main] [I] New Testcase 1 with EIA 00000000 EEA 00000000
+11:40:17.639108 [Main] [I] New Testcase 2 with EIA 00000000 EEA 00000001
+11:40:17.863275 [Main] [I] Testcase 2 got Attach parameters
+11:40:17.913803 [Main] [I] New Testcase 3 with EIA 00000000 EEA 00000010
+11:40:18.051263 [Main] [I] Testcase 3 got Attach parameters
+11:40:18.101693 [Main] [I] New Testcase 4 with EIA 00000000 EEA 00000011
+11:40:18.205188 [Main] [I] Testcase 4 got Attach parameters
+11:40:18.255391 [Main] [I] New Testcase 5 with EIA 00000000 EEA 00000100
+11:40:19.381307 [Main] [I] New Testcase 6 with EIA 00000000 EEA 00000101
+11:40:19.491155 [Main] [I] Testcase 6 got Attach parameters
+11:40:19.541614 [Main] [I] New Testcase 7 with EIA 00000000 EEA 00000110
+11:40:20.655273 [Main] [I] New Testcase 8 with EIA 00000000 EEA 00000111
+11:40:20.761129 [Main] [I] Testcase 8 got Attach parameters
+11:40:20.811674 [Main] [I] New Testcase 9 with EIA 00000000 EEA 00001000
+11:40:20.947251 [Main] [I] Testcase 9 got Attach parameters
+11:40:20.997626 [Main] [I] New Testcase 10 with EIA 00000000 EEA 00001001
+11:40:21.129134 [Main] [I] Testcase 10 got Attach parameters
+11:40:21.179259 [Main] [I] New Testcase 11 with EIA 00000000 EEA 00001010
+11:40:22.307989 [Main] [I] New Testcase 12 with EIA 00000000 EEA 00001011
+11:40:22.430206 [Main] [I] Testcase 12 got Attach parameters
+11:40:22.481162 [Main] [I] New Testcase 13 with EIA 00000000 EEA 00001100
+11:40:22.583198 [Main] [I] Testcase 13 got Attach parameters
+11:40:22.634021 [Main] [I] New Testcase 14 with EIA 00000000 EEA 00001101
+11:40:22.751275 [Main] [I] Testcase 14 got Attach parameters
+11:40:22.802252 [Main] [I] New Testcase 15 with EIA 00000000 EEA 00001110
+11:40:23.936264 [Main] [I] New Testcase 16 with EIA 00000000 EEA 00001111
+11:40:25.042395 [Main] [I] New Testcase 17 with EIA 00000000 EEA 00010000
+11:40:26.145143 [Main] [I] New Testcase 18 with EIA 00000000 EEA 00010001
+11:40:27.250207 [Main] [I] New Testcase 19 with EIA 00000000 EEA 00010010
+11:40:28.357907 [Main] [I] New Testcase 20 with EIA 00000000 EEA 00010011
+11:40:28.451254 [Main] [I] Testcase 20 got Attach parameters
+11:40:28.501909 [Main] [I] New Testcase 21 with EIA 00000000 EEA 00010100
+11:40:29.627019 [Main] [I] New Testcase 22 with EIA 00000000 EEA 00010101
+11:40:30.753395 [Main] [I] New Testcase 23 with EIA 00000000 EEA 00010110
+11:40:31.885196 [Main] [I] New Testcase 24 with EIA 00000000 EEA 00010111
+11:40:32.226281 [Main] [I] Testcase 24 got Attach parameters
+11:40:32.277189 [Main] [I] New Testcase 25 with EIA 00000000 EEA 00011000
+11:40:32.520350 [Main] [I] Testcase 25 got Attach parameters
+11:40:32.571271 [Main] [I] New Testcase 26 with EIA 00000000 EEA 00011001
+11:40:33.695726 [Main] [I] New Testcase 27 with EIA 00000000 EEA 00011010
+11:40:33.791241 [Main] [I] Testcase 27 got Attach parameters
+11:40:33.841970 [Main] [I] New Testcase 28 with EIA 00000000 EEA 00011011
+11:40:33.966144 [Main] [I] Testcase 28 got Attach parameters
+11:40:34.017236 [Main] [I] New Testcase 29 with EIA 00000000 EEA 00011100
+11:40:34.131253 [Main] [I] Testcase 29 got Attach parameters
+11:40:34.181509 [Main] [I] New Testcase 30 with EIA 00000000 EEA 00011101
+11:40:35.287892 [Main] [I] New Testcase 31 with EIA 00000000 EEA 00011110
+11:40:36.391453 [Main] [I] New Testcase 32 with EIA 00000000 EEA 00011111
+11:40:37.494398 [Main] [I] New Testcase 33 with EIA 00000000 EEA 00100000
+11:40:38.598213 [Main] [I] New Testcase 34 with EIA 00000000 EEA 00100001
+11:40:38.732257 [Main] [I] Testcase 34 got Attach parameters
+11:40:38.783190 [Main] [I] New Testcase 35 with EIA 00000000 EEA 00100010
+11:40:38.884542 [Main] [I] Testcase 35 got Attach parameters
+11:40:38.935061 [Main] [I] New Testcase 36 with EIA 00000000 EEA 00100011
+11:40:39.021213 [Main] [I] Testcase 36 got Attach parameters
+11:40:39.071718 [Main] [I] New Testcase 37 with EIA 00000000 EEA 00100100
+11:40:40.199791 [Main] [I] New Testcase 38 with EIA 00000000 EEA 00100101
+11:40:40.331237 [Main] [I] Testcase 38 got Attach parameters
+11:40:40.382092 [Main] [I] New Testcase 39 with EIA 00000000 EEA 00100110
+11:40:41.509167 [Main] [I] New Testcase 40 with EIA 00000000 EEA 00100111
+11:40:41.630573 [Main] [I] Testcase 40 got Attach parameters
+11:40:41.680750 [Main] [I] New Testcase 41 with EIA 00000000 EEA 00101000
+11:40:42.804934 [Main] [I] New Testcase 42 with EIA 00000000 EEA 00101001
+11:40:43.931066 [Main] [I] New Testcase 43 with EIA 00000000 EEA 00101010
+11:40:45.058596 [Main] [I] New Testcase 44 with EIA 00000000 EEA 00101011
+11:40:45.194165 [Main] [I] Testcase 44 got Attach parameters
+11:40:45.244923 [Main] [I] New Testcase 45 with EIA 00000000 EEA 00101100
+11:40:45.365271 [Main] [I] Testcase 45 got Attach parameters
+11:40:45.415908 [Main] [I] New Testcase 46 with EIA 00000000 EEA 00101101
+11:40:46.540400 [Main] [I] New Testcase 47 with EIA 00000000 EEA 00101110
+11:40:46.682257 [Main] [I] Testcase 47 got Attach parameters
+11:40:46.733187 [Main] [I] New Testcase 48 with EIA 00000000 EEA 00101111
+11:40:46.840318 [Main] [I] Testcase 48 got Attach parameters
+11:40:46.891468 [Main] [I] New Testcase 49 with EIA 00000000 EEA 00110000
+11:40:47.008291 [Main] [I] Testcase 49 got Attach parameters
+11:40:47.058605 [Main] [I] New Testcase 50 with EIA 00000000 EEA 00110001
+11:40:48.192308 [Main] [I] New Testcase 51 with EIA 00000000 EEA 00110010
+11:40:49.321406 [Main] [I] New Testcase 52 with EIA 00000000 EEA 00110011
+11:40:49.420258 [Main] [I] Testcase 52 got Attach parameters
+11:40:49.470658 [Main] [I] New Testcase 53 with EIA 00000000 EEA 00110100
+11:40:49.603141 [Main] [I] Testcase 53 got Attach parameters
+11:40:49.654263 [Main] [I] New Testcase 54 with EIA 00000000 EEA 00110101
+11:40:49.753185 [Main] [I] Testcase 54 got Attach parameters
+11:40:49.803574 [Main] [I] New Testcase 55 with EIA 00000000 EEA 00110110
+11:40:49.898290 [Main] [I] Testcase 55 got Attach parameters
+11:40:49.949255 [Main] [I] New Testcase 56 with EIA 00000000 EEA 00110111
+11:40:51.075015 [Main] [I] New Testcase 57 with EIA 00000000 EEA 00111000
+11:40:52.205368 [Main] [I] New Testcase 58 with EIA 00000000 EEA 00111001
+11:40:53.320422 [Main] [I] New Testcase 59 with EIA 00000000 EEA 00111010
+11:40:54.446969 [Main] [I] New Testcase 60 with EIA 00000000 EEA 00111011
+11:40:55.575900 [Main] [I] New Testcase 61 with EIA 00000000 EEA 00111100
+11:40:55.672313 [Main] [I] Testcase 61 got Attach parameters
+11:40:55.722603 [Main] [I] New Testcase 62 with EIA 00000000 EEA 00111101
+11:40:55.845283 [Main] [I] Testcase 62 got Attach parameters
+11:40:55.895966 [Main] [I] New Testcase 63 with EIA 00000000 EEA 00111110
+11:40:55.991183 [Main] [I] Testcase 63 got Attach parameters
+11:40:56.041969 [Main] [I] New Testcase 64 with EIA 00000000 EEA 00111111
+11:40:56.146178 [Main] [I] Testcase 64 got Attach parameters
+11:40:56.196318 [Main] [I] New Testcase 65 with EIA 00000000 EEA 01000000
+11:40:57.314256 [Main] [I] New Testcase 66 with EIA 00000000 EEA 01000001
+11:40:57.434230 [Main] [I] Testcase 66 got Attach parameters
+11:40:57.485053 [Main] [I] New Testcase 67 with EIA 00000000 EEA 01000010
+11:40:57.618276 [Main] [I] Testcase 67 got Attach parameters
+11:40:57.669047 [Main] [I] New Testcase 68 with EIA 00000000 EEA 01000011
+11:40:58.784316 [Main] [I] New Testcase 69 with EIA 00000000 EEA 01000100
+11:40:59.887259 [Main] [I] New Testcase 70 with EIA 00000000 EEA 01000101
+11:41:00.009153 [Main] [I] Testcase 70 got Attach parameters
+11:41:00.059585 [Main] [I] New Testcase 71 with EIA 00000000 EEA 01000110
+11:41:00.180259 [Main] [I] Testcase 71 got Attach parameters
+11:41:00.230835 [Main] [I] New Testcase 72 with EIA 00000000 EEA 01000111
+11:41:01.334188 [Main] [I] New Testcase 73 with EIA 00000000 EEA 01001000
+11:41:01.451298 [Main] [I] Testcase 73 got Attach parameters
+11:41:01.502195 [Main] [I] New Testcase 74 with EIA 00000000 EEA 01001001
+11:41:02.605151 [Main] [I] New Testcase 75 with EIA 00000000 EEA 01001010
+11:41:03.712282 [Main] [I] New Testcase 76 with EIA 00000000 EEA 01001011
+11:41:04.837631 [Main] [I] New Testcase 77 with EIA 00000000 EEA 01001100
+11:41:04.934271 [Main] [I] Testcase 77 got Attach parameters
+11:41:04.984721 [Main] [I] New Testcase 78 with EIA 00000000 EEA 01001101
+11:41:05.101207 [Main] [I] Testcase 78 got Attach parameters
+11:41:05.151762 [Main] [I] New Testcase 79 with EIA 00000000 EEA 01001110
+11:41:06.283037 [Main] [I] New Testcase 80 with EIA 00000000 EEA 01001111
+11:41:07.397661 [Main] [I] New Testcase 81 with EIA 00000000 EEA 01010000
+11:41:07.530240 [Main] [I] Testcase 81 got Attach parameters
+11:41:07.580827 [Main] [I] New Testcase 82 with EIA 00000000 EEA 01010001
+11:41:07.708234 [Main] [I] Testcase 82 got Attach parameters
+11:41:07.759132 [Main] [I] New Testcase 83 with EIA 00000000 EEA 01010010
+11:41:08.887099 [Main] [I] New Testcase 84 with EIA 00000000 EEA 01010011
+11:41:08.985155 [Main] [I] Testcase 84 got Attach parameters
+11:41:09.035251 [Main] [I] New Testcase 85 with EIA 00000000 EEA 01010100
+11:41:09.144137 [Main] [I] Testcase 85 got Attach parameters
+11:41:09.194976 [Main] [I] New Testcase 86 with EIA 00000000 EEA 01010101
+11:41:10.322005 [Main] [I] New Testcase 87 with EIA 00000000 EEA 01010110
+11:41:10.444261 [Main] [I] Testcase 87 got Attach parameters
+11:41:10.495018 [Main] [I] New Testcase 88 with EIA 00000000 EEA 01010111
+11:41:11.597989 [Main] [I] New Testcase 89 with EIA 00000000 EEA 01011000
+11:41:11.732174 [Main] [I] Testcase 89 got Attach parameters
+11:41:11.782839 [Main] [I] New Testcase 90 with EIA 00000000 EEA 01011001
+11:41:11.912277 [Main] [I] Testcase 90 got Attach parameters
+11:41:11.962573 [Main] [I] New Testcase 91 with EIA 00000000 EEA 01011010
+11:41:13.066194 [Main] [I] New Testcase 92 with EIA 00000000 EEA 01011011
+11:41:14.169351 [Main] [I] New Testcase 93 with EIA 00000000 EEA 01011100
+11:41:15.278750 [Main] [I] New Testcase 94 with EIA 00000000 EEA 01011101
+11:41:16.400531 [Main] [I] New Testcase 95 with EIA 00000000 EEA 01011110
+11:41:17.521751 [Main] [I] New Testcase 96 with EIA 00000000 EEA 01011111
+11:41:17.647290 [Main] [I] Testcase 96 got Attach parameters
+11:41:17.698350 [Main] [I] New Testcase 97 with EIA 00000000 EEA 01100000
+11:41:17.812184 [Main] [I] Testcase 97 got Attach parameters
+11:41:17.863077 [Main] [I] New Testcase 98 with EIA 00000000 EEA 01100001
+11:41:18.984806 [Main] [I] New Testcase 99 with EIA 00000000 EEA 01100010
+11:41:19.098223 [Main] [I] Testcase 99 got Attach parameters
+11:41:19.148375 [Main] [I] New Testcase 100 with EIA 00000000 EEA 01100011
+11:41:19.278114 [Main] [I] Testcase 100 got Attach parameters
+11:41:19.328858 [Main] [I] New Testcase 101 with EIA 00000000 EEA 01100100
+11:41:20.434168 [Main] [I] New Testcase 102 with EIA 00000000 EEA 01100101
+11:41:20.552337 [Main] [I] Testcase 102 got Attach parameters
+11:41:20.602420 [Main] [I] New Testcase 103 with EIA 00000000 EEA 01100110
+11:41:20.698133 [Main] [I] Testcase 103 got Attach parameters
+11:41:20.748532 [Main] [I] New Testcase 104 with EIA 00000000 EEA 01100111
+11:41:21.853797 [Main] [I] New Testcase 105 with EIA 00000000 EEA 01101000
+11:41:22.958193 [Main] [I] New Testcase 106 with EIA 00000000 EEA 01101001
+11:41:24.061133 [Main] [I] New Testcase 107 with EIA 00000000 EEA 01101010
+11:41:24.182228 [Main] [I] Testcase 107 got Attach parameters
+11:41:24.232441 [Main] [I] New Testcase 108 with EIA 00000000 EEA 01101011
+11:41:24.355167 [Main] [I] Testcase 108 got Attach parameters
+11:41:24.405994 [Main] [I] New Testcase 109 with EIA 00000000 EEA 01101100
+11:41:25.511677 [Main] [I] New Testcase 110 with EIA 00000000 EEA 01101101
+11:41:25.613662 [Main] [I] Testcase 110 got Attach parameters
+11:41:25.664477 [Main] [I] New Testcase 111 with EIA 00000000 EEA 01101110
+11:41:25.768185 [Main] [I] Testcase 111 got Attach parameters
+11:41:25.819029 [Main] [I] New Testcase 112 with EIA 00000000 EEA 01101111
+11:41:26.924012 [Main] [I] New Testcase 113 with EIA 00000000 EEA 01110000
+11:41:27.011198 [Main] [I] Testcase 113 got Attach parameters
+11:41:27.061653 [Main] [I] New Testcase 114 with EIA 00000000 EEA 01110001
+11:41:27.168203 [Main] [I] Testcase 114 got Attach parameters
+11:41:27.218328 [Main] [I] New Testcase 115 with EIA 00000000 EEA 01110010
+11:41:28.323243 [Main] [I] New Testcase 116 with EIA 00000000 EEA 01110011
+11:41:29.427619 [Main] [I] New Testcase 117 with EIA 00000000 EEA 01110100
+11:41:29.543380 [Main] [I] Testcase 117 got Attach parameters
+11:41:29.593820 [Main] [I] New Testcase 118 with EIA 00000000 EEA 01110101
+11:41:29.736307 [Main] [I] Testcase 118 got Attach parameters
+11:41:29.787331 [Main] [I] New Testcase 119 with EIA 00000000 EEA 01110110
+11:41:30.891357 [Main] [I] New Testcase 120 with EIA 00000000 EEA 01110111
+11:41:31.043361 [Main] [I] Testcase 120 got Attach parameters
+11:41:31.094252 [Main] [I] New Testcase 121 with EIA 00000000 EEA 01111000
+11:41:31.217292 [Main] [I] Testcase 121 got Attach parameters
+11:41:31.267698 [Main] [I] New Testcase 122 with EIA 00000000 EEA 01111001
+11:41:32.371031 [Main] [I] New Testcase 123 with EIA 00000000 EEA 01111010
+11:41:33.478075 [Main] [I] New Testcase 124 with EIA 00000000 EEA 01111011
+11:41:33.591501 [Main] [I] Testcase 124 got Attach parameters
+11:41:33.642290 [Main] [I] New Testcase 125 with EIA 00000000 EEA 01111100
+11:41:33.762205 [Main] [I] Testcase 125 got Attach parameters
+11:41:33.812654 [Main] [I] New Testcase 126 with EIA 00000000 EEA 01111101
+11:41:33.940186 [Main] [I] Testcase 126 got Attach parameters
+11:41:33.990468 [Main] [I] New Testcase 127 with EIA 00000000 EEA 01111110
+11:41:34.124182 [Main] [I] Testcase 127 got Attach parameters
+11:41:34.174871 [Main] [I] New Testcase 128 with EIA 00000000 EEA 01111111
+11:41:35.308236 [Main] [I] New Testcase 129 with EIA 00000000 EEA 10000000
+11:41:36.443734 [Main] [I] New Testcase 130 with EIA 00000000 EEA 10000001
+11:41:36.578300 [Main] [I] Testcase 130 got Attach parameters
+11:41:36.628581 [Main] [I] New Testcase 131 with EIA 00000000 EEA 10000010
+11:41:37.754046 [Main] [I] New Testcase 132 with EIA 00000000 EEA 10000011
+11:41:37.888169 [Main] [I] Testcase 132 got Attach parameters
+11:41:37.938331 [Main] [I] New Testcase 133 with EIA 00000000 EEA 10000100
+11:41:38.050164 [Main] [I] Testcase 133 got Attach parameters
+11:41:38.100650 [Main] [I] New Testcase 134 with EIA 00000000 EEA 10000101
+11:41:38.219289 [Main] [I] Testcase 134 got Attach parameters
+11:41:38.269391 [Main] [I] New Testcase 135 with EIA 00000000 EEA 10000110
+11:41:39.376798 [Main] [I] New Testcase 136 with EIA 00000000 EEA 10000111
+11:41:39.535133 [Main] [I] Testcase 136 got Attach parameters
+11:41:39.585574 [Main] [I] New Testcase 137 with EIA 00000000 EEA 10001000
+11:41:40.689079 [Main] [I] New Testcase 138 with EIA 00000000 EEA 10001001
+11:41:40.793155 [Main] [I] Testcase 138 got Attach parameters
+11:41:40.843604 [Main] [I] New Testcase 139 with EIA 00000000 EEA 10001010
+11:41:40.934188 [Main] [I] Testcase 139 got Attach parameters
+11:41:40.984387 [Main] [I] New Testcase 140 with EIA 00000000 EEA 10001011
+11:41:42.094611 [Main] [I] New Testcase 141 with EIA 00000000 EEA 10001100
+11:41:43.206026 [Main] [I] New Testcase 142 with EIA 00000000 EEA 10001101
+11:41:44.331498 [Main] [I] New Testcase 143 with EIA 00000000 EEA 10001110
+11:41:44.442302 [Main] [I] Testcase 143 got Attach parameters
+11:41:44.493477 [Main] [I] New Testcase 144 with EIA 00000000 EEA 10001111
+11:41:44.637201 [Main] [I] Testcase 144 got Attach parameters
+11:41:44.688393 [Main] [I] New Testcase 145 with EIA 00000000 EEA 10010000
+11:41:45.814771 [Main] [I] New Testcase 146 with EIA 00000000 EEA 10010001
+11:41:46.939499 [Main] [I] New Testcase 147 with EIA 00000000 EEA 10010010
+11:41:48.050640 [Main] [I] New Testcase 148 with EIA 00000000 EEA 10010011
+11:41:48.186163 [Main] [I] Testcase 148 got Attach parameters
+11:41:48.236604 [Main] [I] New Testcase 149 with EIA 00000000 EEA 10010100
+11:41:49.339464 [Main] [I] New Testcase 150 with EIA 00000000 EEA 10010101
+11:41:50.442860 [Main] [I] New Testcase 151 with EIA 00000000 EEA 10010110
+11:41:50.561327 [Main] [I] Testcase 151 got Attach parameters
+11:41:50.612092 [Main] [I] New Testcase 152 with EIA 00000000 EEA 10010111
+11:41:50.728297 [Main] [I] Testcase 152 got Attach parameters
+11:41:50.779258 [Main] [I] New Testcase 153 with EIA 00000000 EEA 10011000
+11:41:51.882859 [Main] [I] New Testcase 154 with EIA 00000000 EEA 10011001
+11:41:52.030085 [Main] [I] Testcase 154 got Attach parameters
+11:41:52.080435 [Main] [I] New Testcase 155 with EIA 00000000 EEA 10011010
+11:41:52.193339 [Main] [I] Testcase 155 got Attach parameters
+11:41:52.244296 [Main] [I] New Testcase 156 with EIA 00000000 EEA 10011011
+11:41:53.347305 [Main] [I] New Testcase 157 with EIA 00000000 EEA 10011100
+11:41:54.465098 [Main] [I] New Testcase 158 with EIA 00000000 EEA 10011101
+11:41:54.582171 [Main] [I] Testcase 158 got Attach parameters
+11:41:54.632943 [Main] [I] New Testcase 159 with EIA 00000000 EEA 10011110
+11:41:54.750183 [Main] [I] Testcase 159 got Attach parameters
+11:41:54.800946 [Main] [I] New Testcase 160 with EIA 00000000 EEA 10011111
+11:41:54.932445 [Main] [I] Testcase 160 got Attach parameters
+11:41:54.982642 [Main] [I] New Testcase 161 with EIA 00000000 EEA 10100000
+11:41:55.106338 [Main] [I] Testcase 161 got Attach parameters
+11:41:55.157074 [Main] [I] New Testcase 162 with EIA 00000000 EEA 10100001
+11:41:56.260329 [Main] [I] New Testcase 163 with EIA 00000000 EEA 10100010
+11:41:56.372297 [Main] [I] Testcase 163 got Attach parameters
+11:41:56.423042 [Main] [I] New Testcase 164 with EIA 00000000 EEA 10100011
+11:41:56.555214 [Main] [I] Testcase 164 got Attach parameters
+11:41:56.605771 [Main] [I] New Testcase 165 with EIA 00000000 EEA 10100100
+11:41:57.734026 [Main] [I] New Testcase 166 with EIA 00000000 EEA 10100101
+11:41:57.849152 [Main] [I] Testcase 166 got Attach parameters
+11:41:57.899917 [Main] [I] New Testcase 167 with EIA 00000000 EEA 10100110
+11:41:58.024140 [Main] [I] Testcase 167 got Attach parameters
+11:41:58.074473 [Main] [I] New Testcase 168 with EIA 00000000 EEA 10100111
+11:41:58.178164 [Main] [I] Testcase 168 got Attach parameters
+11:41:58.228542 [Main] [I] New Testcase 169 with EIA 00000000 EEA 10101000
+11:41:59.354638 [Main] [I] New Testcase 170 with EIA 00000000 EEA 10101001
+11:41:59.476175 [Main] [I] Testcase 170 got Attach parameters
+11:41:59.526692 [Main] [I] New Testcase 171 with EIA 00000000 EEA 10101010
+11:42:00.655923 [Main] [I] New Testcase 172 with EIA 00000000 EEA 10101011
+11:42:00.761163 [Main] [I] Testcase 172 got Attach parameters
+11:42:00.812130 [Main] [I] New Testcase 173 with EIA 00000000 EEA 10101100
+11:42:01.934192 [Main] [I] New Testcase 174 with EIA 00000000 EEA 10101101
+11:42:02.054243 [Main] [I] Testcase 174 got Attach parameters
+11:42:02.104528 [Main] [I] New Testcase 175 with EIA 00000000 EEA 10101110
+11:42:02.214343 [Main] [I] Testcase 175 got Attach parameters
+11:42:02.265223 [Main] [I] New Testcase 176 with EIA 00000000 EEA 10101111
+11:42:03.369781 [Main] [I] New Testcase 177 with EIA 00000000 EEA 10110000
+11:42:04.473364 [Main] [I] New Testcase 178 with EIA 00000000 EEA 10110001
+11:42:05.576315 [Main] [I] New Testcase 179 with EIA 00000000 EEA 10110010
+11:42:05.701233 [Main] [I] Testcase 179 got Attach parameters
+11:42:05.751374 [Main] [I] New Testcase 180 with EIA 00000000 EEA 10110011
+11:42:06.883412 [Main] [I] New Testcase 181 with EIA 00000000 EEA 10110100
+11:42:08.013963 [Main] [I] New Testcase 182 with EIA 00000000 EEA 10110101
+11:42:08.113235 [Main] [I] Testcase 182 got Attach parameters
+11:42:08.163587 [Main] [I] New Testcase 183 with EIA 00000000 EEA 10110110
+11:42:08.270319 [Main] [I] Testcase 183 got Attach parameters
+11:42:08.321122 [Main] [I] New Testcase 184 with EIA 00000000 EEA 10110111
+11:42:09.445815 [Main] [I] New Testcase 185 with EIA 00000000 EEA 10111000
+11:42:09.585165 [Main] [I] Testcase 185 got Attach parameters
+11:42:09.636090 [Main] [I] New Testcase 186 with EIA 00000000 EEA 10111001
+11:42:09.755232 [Main] [I] Testcase 186 got Attach parameters
+11:42:09.806223 [Main] [I] New Testcase 187 with EIA 00000000 EEA 10111010
+11:42:10.908947 [Main] [I] New Testcase 188 with EIA 00000000 EEA 10111011
+11:42:11.026250 [Main] [I] Testcase 188 got Attach parameters
+11:42:11.076944 [Main] [I] New Testcase 189 with EIA 00000000 EEA 10111100
+11:42:12.179683 [Main] [I] New Testcase 190 with EIA 00000000 EEA 10111101
+11:42:12.283151 [Main] [I] Testcase 190 got Attach parameters
+11:42:12.333973 [Main] [I] New Testcase 191 with EIA 00000000 EEA 10111110
+11:42:13.436717 [Main] [I] New Testcase 192 with EIA 00000000 EEA 10111111
+11:42:14.540942 [Main] [I] New Testcase 193 with EIA 00000000 EEA 11000000
+11:42:14.676238 [Main] [I] Testcase 193 got Attach parameters
+11:42:14.727118 [Main] [I] New Testcase 194 with EIA 00000000 EEA 11000001
+11:42:14.837196 [Main] [I] Testcase 194 got Attach parameters
+11:42:14.888018 [Main] [I] New Testcase 195 with EIA 00000000 EEA 11000010
+11:42:15.004200 [Main] [I] Testcase 195 got Attach parameters
+11:42:15.055176 [Main] [I] New Testcase 196 with EIA 00000000 EEA 11000011
+11:42:15.176171 [Main] [I] Testcase 196 got Attach parameters
+11:42:15.226431 [Main] [I] New Testcase 197 with EIA 00000000 EEA 11000100
+11:42:16.330655 [Main] [I] New Testcase 198 with EIA 00000000 EEA 11000101
+11:42:16.460312 [Main] [I] Testcase 198 got Attach parameters
+11:42:16.510428 [Main] [I] New Testcase 199 with EIA 00000000 EEA 11000110
+11:42:16.636250 [Main] [I] Testcase 199 got Attach parameters
+11:42:16.686825 [Main] [I] New Testcase 200 with EIA 00000000 EEA 11000111
+11:42:17.812922 [Main] [I] New Testcase 201 with EIA 00000001 EEA 00000000
+11:42:18.922690 [Main] [I] New Testcase 202 with EIA 00000001 EEA 00000001
+11:42:20.049572 [Main] [I] New Testcase 203 with EIA 00000001 EEA 00000010
+11:42:20.146163 [Main] [I] Testcase 203 got Attach parameters
+11:42:20.197258 [Main] [I] New Testcase 204 with EIA 00000001 EEA 00000011
+11:42:20.300067 [Main] [I] Testcase 204 got Attach parameters
+11:42:20.350639 [Main] [I] New Testcase 205 with EIA 00000001 EEA 00000100
+11:42:21.466391 [Main] [I] New Testcase 206 with EIA 00000001 EEA 00000101
+11:42:22.578209 [Main] [I] New Testcase 207 with EIA 00000001 EEA 00000110
+11:42:22.694201 [Main] [I] Testcase 207 got Attach parameters
+11:42:22.744394 [Main] [I] New Testcase 208 with EIA 00000001 EEA 00000111
+11:42:22.863249 [Main] [I] Testcase 208 got Attach parameters
+11:42:22.913777 [Main] [I] New Testcase 209 with EIA 00000001 EEA 00001000
+11:42:23.027284 [Main] [I] Testcase 209 got Attach parameters
+11:42:23.077572 [Main] [I] New Testcase 210 with EIA 00000001 EEA 00001001
+11:42:23.194181 [Main] [I] Testcase 210 got Attach parameters
+11:42:23.244518 [Main] [I] New Testcase 211 with EIA 00000001 EEA 00001010
+11:42:24.347902 [Main] [I] New Testcase 212 with EIA 00000001 EEA 00001011
+11:42:24.450216 [Main] [I] Testcase 212 got Attach parameters
+11:42:24.500529 [Main] [I] New Testcase 213 with EIA 00000001 EEA 00001100
+11:42:24.603063 [Main] [I] Testcase 213 got Attach parameters
+11:42:24.653679 [Main] [I] New Testcase 214 with EIA 00000001 EEA 00001101
+11:42:25.756743 [Main] [I] New Testcase 215 with EIA 00000001 EEA 00001110
+11:42:26.880486 [Main] [I] New Testcase 216 with EIA 00000001 EEA 00001111
+11:42:28.005209 [Main] [I] New Testcase 217 with EIA 00000001 EEA 00010000
+11:42:28.109208 [Main] [I] Testcase 217 got Attach parameters
+11:42:28.159758 [Main] [I] New Testcase 218 with EIA 00000001 EEA 00010001
+11:42:28.267179 [Main] [I] Testcase 218 got Attach parameters
+11:42:28.317342 [Main] [I] New Testcase 219 with EIA 00000001 EEA 00010010
+11:42:29.439525 [Main] [I] New Testcase 220 with EIA 00000001 EEA 00010011
+11:42:30.547102 [Main] [I] New Testcase 221 with EIA 00000001 EEA 00010100
+11:42:30.659043 [Main] [I] Testcase 221 got Attach parameters
+11:42:30.710043 [Main] [I] New Testcase 222 with EIA 00000001 EEA 00010101
+11:42:30.815129 [Main] [I] Testcase 222 got Attach parameters
+11:42:30.865600 [Main] [I] New Testcase 223 with EIA 00000001 EEA 00010110
+11:42:31.970526 [Main] [I] New Testcase 224 with EIA 00000001 EEA 00010111
+11:42:33.089623 [Main] [I] New Testcase 225 with EIA 00000001 EEA 00011000
+11:42:33.205077 [Main] [I] Testcase 225 got Attach parameters
+11:42:33.255373 [Main] [I] New Testcase 226 with EIA 00000001 EEA 00011001
+11:42:33.391177 [Main] [I] Testcase 226 got Attach parameters
+11:42:33.441347 [Main] [I] New Testcase 227 with EIA 00000001 EEA 00011010
+11:42:34.562215 [Main] [I] New Testcase 228 with EIA 00000001 EEA 00011011
+11:42:34.689166 [Main] [I] Testcase 228 got Attach parameters
+11:42:34.740288 [Main] [I] New Testcase 229 with EIA 00000001 EEA 00011100
+11:42:34.873268 [Main] [I] Testcase 229 got Attach parameters
+11:42:34.924253 [Main] [I] New Testcase 230 with EIA 00000001 EEA 00011101
+11:42:35.058118 [Main] [I] Testcase 230 got Attach parameters
+11:42:35.108769 [Main] [I] New Testcase 231 with EIA 00000001 EEA 00011110
+11:42:35.231186 [Main] [I] Testcase 231 got Attach parameters
+11:42:35.282130 [Main] [I] New Testcase 232 with EIA 00000001 EEA 00011111
+11:42:36.386225 [Main] [I] New Testcase 233 with EIA 00000001 EEA 00100000
+11:42:36.518181 [Main] [I] Testcase 233 got Attach parameters
+11:42:36.568967 [Main] [I] New Testcase 234 with EIA 00000001 EEA 00100001
+11:42:37.672465 [Main] [I] New Testcase 235 with EIA 00000001 EEA 00100010
+11:42:38.775892 [Main] [I] New Testcase 236 with EIA 00000001 EEA 00100011
+11:42:38.883137 [Main] [I] Testcase 236 got Attach parameters
+11:42:38.934142 [Main] [I] New Testcase 237 with EIA 00000001 EEA 00100100
+11:42:39.056210 [Main] [I] Testcase 237 got Attach parameters
+11:42:39.107199 [Main] [I] New Testcase 238 with EIA 00000001 EEA 00100101
+11:42:39.223193 [Main] [I] Testcase 238 got Attach parameters
+11:42:39.274213 [Main] [I] New Testcase 239 with EIA 00000001 EEA 00100110
+11:42:40.382080 [Main] [I] New Testcase 240 with EIA 00000001 EEA 00100111
+11:42:40.498110 [Main] [I] Testcase 240 got Attach parameters
+11:42:40.548956 [Main] [I] New Testcase 241 with EIA 00000001 EEA 00101000
+11:42:41.281261 [Main] [I] Testcase 241 got Attach parameters
+11:42:41.331917 [Main] [I] New Testcase 242 with EIA 00000001 EEA 00101001
+11:42:41.440152 [Main] [I] Testcase 242 got Attach parameters
+11:42:41.490655 [Main] [I] New Testcase 243 with EIA 00000001 EEA 00101010
+11:42:42.593794 [Main] [I] New Testcase 244 with EIA 00000001 EEA 00101011
+11:42:43.702028 [Main] [I] New Testcase 245 with EIA 00000001 EEA 00101100
+11:42:44.827887 [Main] [I] New Testcase 246 with EIA 00000001 EEA 00101101
+11:42:44.941066 [Main] [I] Testcase 246 got Attach parameters
+11:42:44.992039 [Main] [I] New Testcase 247 with EIA 00000001 EEA 00101110
+11:42:46.111485 [Main] [I] New Testcase 248 with EIA 00000001 EEA 00101111
+11:42:47.215662 [Main] [I] New Testcase 249 with EIA 00000001 EEA 00110000
+11:42:47.309232 [Main] [I] Testcase 249 got Attach parameters
+11:42:47.359673 [Main] [I] New Testcase 250 with EIA 00000001 EEA 00110001
+11:42:48.463616 [Main] [I] New Testcase 251 with EIA 00000001 EEA 00110010
+11:42:49.570295 [Main] [I] New Testcase 252 with EIA 00000001 EEA 00110011
+11:42:49.699155 [Main] [I] Testcase 252 got Attach parameters
+11:42:49.750136 [Main] [I] New Testcase 253 with EIA 00000001 EEA 00110100
+11:42:50.872118 [Main] [I] New Testcase 254 with EIA 00000001 EEA 00110101
+11:42:51.995976 [Main] [I] New Testcase 255 with EIA 00000001 EEA 00110110
+11:42:52.097217 [Main] [I] Testcase 255 got Attach parameters
+11:42:52.147431 [Main] [I] New Testcase 256 with EIA 00000001 EEA 00110111
+11:42:52.268167 [Main] [I] Testcase 256 got Attach parameters
+11:42:52.318388 [Main] [I] New Testcase 257 with EIA 00000001 EEA 00111000
+11:42:53.441933 [Main] [I] New Testcase 258 with EIA 00000001 EEA 00111001
+11:42:53.555228 [Main] [I] Testcase 258 got Attach parameters
+11:42:53.605651 [Main] [I] New Testcase 259 with EIA 00000001 EEA 00111010
+11:42:53.722234 [Main] [I] Testcase 259 got Attach parameters
+11:42:53.772586 [Main] [I] New Testcase 260 with EIA 00000001 EEA 00111011
+11:42:54.009299 [Main] [I] Testcase 260 got Attach parameters
+11:42:54.059544 [Main] [I] New Testcase 261 with EIA 00000001 EEA 00111100
+11:42:54.157212 [Main] [I] Testcase 261 got Attach parameters
+11:42:54.208259 [Main] [I] New Testcase 262 with EIA 00000001 EEA 00111101
+11:42:55.333016 [Main] [I] New Testcase 263 with EIA 00000001 EEA 00111110
+11:42:56.456595 [Main] [I] New Testcase 264 with EIA 00000001 EEA 00111111
+11:42:57.582701 [Main] [I] New Testcase 265 with EIA 00000001 EEA 01000000
+11:42:57.672236 [Main] [I] Testcase 265 got Attach parameters
+11:42:57.722856 [Main] [I] New Testcase 266 with EIA 00000001 EEA 01000001
+11:42:57.824313 [Main] [I] Testcase 266 got Attach parameters
+11:42:57.875394 [Main] [I] New Testcase 267 with EIA 00000001 EEA 01000010
+11:42:57.992305 [Main] [I] Testcase 267 got Attach parameters
+11:42:58.043178 [Main] [I] New Testcase 268 with EIA 00000001 EEA 01000011
+11:42:58.487277 [Main] [I] Testcase 268 got Attach parameters
+11:42:58.537603 [Main] [I] New Testcase 269 with EIA 00000001 EEA 01000100
+11:42:59.663115 [Main] [I] New Testcase 270 with EIA 00000001 EEA 01000101
+11:42:59.790116 [Main] [I] Testcase 270 got Attach parameters
+11:42:59.840823 [Main] [I] New Testcase 271 with EIA 00000001 EEA 01000110
+11:43:00.963218 [Main] [I] New Testcase 272 with EIA 00000001 EEA 01000111
+11:43:02.085865 [Main] [I] New Testcase 273 with EIA 00000001 EEA 01001000
+11:43:02.204167 [Main] [I] Testcase 273 got Attach parameters
+11:43:02.254491 [Main] [I] New Testcase 274 with EIA 00000001 EEA 01001001
+11:43:03.372097 [Main] [I] New Testcase 275 with EIA 00000001 EEA 01001010
+11:43:04.497065 [Main] [I] New Testcase 276 with EIA 00000001 EEA 01001011
+11:43:04.591172 [Main] [I] Testcase 276 got Attach parameters
+11:43:04.641535 [Main] [I] New Testcase 277 with EIA 00000001 EEA 01001100
+11:43:04.765143 [Main] [I] Testcase 277 got Attach parameters
+11:43:04.816046 [Main] [I] New Testcase 278 with EIA 00000001 EEA 01001101
+11:43:04.961193 [Main] [I] Testcase 278 got Attach parameters
+11:43:05.011460 [Main] [I] New Testcase 279 with EIA 00000001 EEA 01001110
+11:43:06.115152 [Main] [I] New Testcase 280 with EIA 00000001 EEA 01001111
+11:43:06.236212 [Main] [I] Testcase 280 got Attach parameters
+11:43:06.287045 [Main] [I] New Testcase 281 with EIA 00000001 EEA 01010000
+11:43:06.690147 [Main] [I] Testcase 281 got Attach parameters
+11:43:06.740962 [Main] [I] New Testcase 282 with EIA 00000001 EEA 01010001
+11:43:07.844096 [Main] [I] New Testcase 283 with EIA 00000001 EEA 01010010
+11:43:07.969055 [Main] [I] Testcase 283 got Attach parameters
+11:43:08.019508 [Main] [I] New Testcase 284 with EIA 00000001 EEA 01010011
+11:43:09.143728 [Main] [I] New Testcase 285 with EIA 00000001 EEA 01010100
+11:43:10.271726 [Main] [I] New Testcase 286 with EIA 00000001 EEA 01010101
+11:43:10.369214 [Main] [I] Testcase 286 got Attach parameters
+11:43:10.419398 [Main] [I] New Testcase 287 with EIA 00000001 EEA 01010110
+11:43:11.541941 [Main] [I] New Testcase 288 with EIA 00000001 EEA 01010111
+11:43:11.662202 [Main] [I] Testcase 288 got Attach parameters
+11:43:11.712298 [Main] [I] New Testcase 289 with EIA 00000001 EEA 01011000
+11:43:11.831241 [Main] [I] Testcase 289 got Attach parameters
+11:43:11.881350 [Main] [I] New Testcase 290 with EIA 00000001 EEA 01011001
+11:43:11.984341 [Main] [I] Testcase 290 got Attach parameters
+11:43:12.034740 [Main] [I] New Testcase 291 with EIA 00000001 EEA 01011010
+11:43:12.159378 [Main] [I] Testcase 291 got Attach parameters
+11:43:12.210194 [Main] [I] New Testcase 292 with EIA 00000001 EEA 01011011
+11:43:13.314006 [Main] [I] New Testcase 293 with EIA 00000001 EEA 01011100
+11:43:14.416867 [Main] [I] New Testcase 294 with EIA 00000001 EEA 01011101
+11:43:14.531128 [Main] [I] Testcase 294 got Attach parameters
+11:43:14.581794 [Main] [I] New Testcase 295 with EIA 00000001 EEA 01011110
+11:43:15.685048 [Main] [I] New Testcase 296 with EIA 00000001 EEA 01011111
+11:43:15.938146 [Main] [I] Testcase 296 got Attach parameters
+11:43:15.988943 [Main] [I] New Testcase 297 with EIA 00000001 EEA 01100000
+11:43:16.097272 [Main] [I] Testcase 297 got Attach parameters
+11:43:16.147473 [Main] [I] New Testcase 298 with EIA 00000001 EEA 01100001
+11:43:17.250624 [Main] [I] New Testcase 299 with EIA 00000001 EEA 01100010
+11:43:18.353698 [Main] [I] New Testcase 300 with EIA 00000001 EEA 01100011
+11:43:19.457143 [Main] [I] New Testcase 301 with EIA 00000001 EEA 01100100
+11:43:19.563293 [Main] [I] Testcase 301 got Attach parameters
+11:43:19.613569 [Main] [I] New Testcase 302 with EIA 00000001 EEA 01100101
+11:43:19.734248 [Main] [I] Testcase 302 got Attach parameters
+11:43:19.784955 [Main] [I] New Testcase 303 with EIA 00000001 EEA 01100110
+11:43:19.895185 [Main] [I] Testcase 303 got Attach parameters
+11:43:19.945576 [Main] [I] New Testcase 304 with EIA 00000001 EEA 01100111
+11:43:21.049137 [Main] [I] New Testcase 305 with EIA 00000001 EEA 01101000
+11:43:21.147290 [Main] [I] Testcase 305 got Attach parameters
+11:43:21.198196 [Main] [I] New Testcase 306 with EIA 00000001 EEA 01101001
+11:43:21.304222 [Main] [I] Testcase 306 got Attach parameters
+11:43:21.354783 [Main] [I] New Testcase 307 with EIA 00000001 EEA 01101010
+11:43:22.458852 [Main] [I] New Testcase 308 with EIA 00000001 EEA 01101011
+11:43:22.583150 [Main] [I] Testcase 308 got Attach parameters
+11:43:22.633355 [Main] [I] New Testcase 309 with EIA 00000001 EEA 01101100
+11:43:23.736750 [Main] [I] New Testcase 310 with EIA 00000001 EEA 01101101
+11:43:23.845126 [Main] [I] Testcase 310 got Attach parameters
+11:43:23.895463 [Main] [I] New Testcase 311 with EIA 00000001 EEA 01101110
+11:43:25.001856 [Main] [I] New Testcase 312 with EIA 00000001 EEA 01101111
+11:43:25.110097 [Main] [I] Testcase 312 got Attach parameters
+11:43:25.160529 [Main] [I] New Testcase 313 with EIA 00000001 EEA 01110000
+11:43:26.116091 [Main] [I] Testcase 313 got Attach parameters
+11:43:26.167046 [Main] [I] New Testcase 314 with EIA 00000001 EEA 01110001
+11:43:27.273802 [Main] [I] New Testcase 315 with EIA 00000001 EEA 01110010
+11:43:28.401563 [Main] [I] New Testcase 316 with EIA 00000001 EEA 01110011
+11:43:28.516170 [Main] [I] Testcase 316 got Attach parameters
+11:43:28.567124 [Main] [I] New Testcase 317 with EIA 00000001 EEA 01110100
+11:43:29.678149 [Main] [I] New Testcase 318 with EIA 00000001 EEA 01110101
+11:43:29.794223 [Main] [I] Testcase 318 got Attach parameters
+11:43:29.845318 [Main] [I] New Testcase 319 with EIA 00000001 EEA 01110110
+11:43:29.945134 [Main] [I] Testcase 319 got Attach parameters
+11:43:29.995625 [Main] [I] New Testcase 320 with EIA 00000001 EEA 01110111
+11:43:31.116033 [Main] [I] New Testcase 321 with EIA 00000001 EEA 01111000
+11:43:31.224281 [Main] [I] Testcase 321 got Attach parameters
+11:43:31.275131 [Main] [I] New Testcase 322 with EIA 00000001 EEA 01111001
+11:43:32.378408 [Main] [I] New Testcase 323 with EIA 00000001 EEA 01111010
+11:43:32.472196 [Main] [I] Testcase 323 got Attach parameters
+11:43:32.522331 [Main] [I] New Testcase 324 with EIA 00000001 EEA 01111011
+11:43:32.630204 [Main] [I] Testcase 324 got Attach parameters
+11:43:32.681304 [Main] [I] New Testcase 325 with EIA 00000001 EEA 01111100
+11:43:33.807432 [Main] [I] New Testcase 326 with EIA 00000001 EEA 01111101
+11:43:34.925973 [Main] [I] New Testcase 327 with EIA 00000001 EEA 01111110
+11:43:36.053456 [Main] [I] New Testcase 328 with EIA 00000001 EEA 01111111
+11:43:36.184114 [Main] [I] Testcase 328 got Attach parameters
+11:43:36.234293 [Main] [I] New Testcase 329 with EIA 00000001 EEA 10000000
+11:43:36.347324 [Main] [I] Testcase 329 got Attach parameters
+11:43:36.398032 [Main] [I] New Testcase 330 with EIA 00000001 EEA 10000001
+11:43:37.525819 [Main] [I] New Testcase 331 with EIA 00000001 EEA 10000010
+11:43:37.629065 [Main] [I] Testcase 331 got Attach parameters
+11:43:37.679312 [Main] [I] New Testcase 332 with EIA 00000001 EEA 10000011
+11:43:38.807444 [Main] [I] New Testcase 333 with EIA 00000001 EEA 10000100
+11:43:38.903222 [Main] [I] Testcase 333 got Attach parameters
+11:43:38.954356 [Main] [I] New Testcase 334 with EIA 00000001 EEA 10000101
+11:43:39.061479 [Main] [I] Testcase 334 got Attach parameters
+11:43:39.111898 [Main] [I] New Testcase 335 with EIA 00000001 EEA 10000110
+11:43:39.223111 [Main] [I] Testcase 335 got Attach parameters
+11:43:39.273480 [Main] [I] New Testcase 336 with EIA 00000001 EEA 10000111
+11:43:40.380369 [Main] [I] New Testcase 337 with EIA 00000001 EEA 10001000
+11:43:40.491251 [Main] [I] Testcase 337 got Attach parameters
+11:43:40.542190 [Main] [I] New Testcase 338 with EIA 00000001 EEA 10001001
+11:43:40.657080 [Main] [I] Testcase 338 got Attach parameters
+11:43:40.708082 [Main] [I] New Testcase 339 with EIA 00000001 EEA 10001010
+11:43:41.812380 [Main] [I] New Testcase 340 with EIA 00000001 EEA 10001011
+11:43:42.939506 [Main] [I] New Testcase 341 with EIA 00000001 EEA 10001100
+11:43:44.044402 [Main] [I] New Testcase 342 with EIA 00000001 EEA 10001101
+11:43:45.147543 [Main] [I] New Testcase 343 with EIA 00000001 EEA 10001110
+11:43:46.250857 [Main] [I] New Testcase 344 with EIA 00000001 EEA 10001111
+11:43:46.376115 [Main] [I] Testcase 344 got Attach parameters
+11:43:46.426249 [Main] [I] New Testcase 345 with EIA 00000001 EEA 10010000
+11:43:47.549084 [Main] [I] New Testcase 346 with EIA 00000001 EEA 10010001
+11:43:47.649220 [Main] [I] Testcase 346 got Attach parameters
+11:43:47.699490 [Main] [I] New Testcase 347 with EIA 00000001 EEA 10010010
+11:43:48.821705 [Main] [I] New Testcase 348 with EIA 00000001 EEA 10010011
+11:43:48.960166 [Main] [I] Testcase 348 got Attach parameters
+11:43:49.011281 [Main] [I] New Testcase 349 with EIA 00000001 EEA 10010100
+11:43:49.122227 [Main] [I] Testcase 349 got Attach parameters
+11:43:49.172651 [Main] [I] New Testcase 350 with EIA 00000001 EEA 10010101
+11:43:50.303724 [Main] [I] New Testcase 351 with EIA 00000001 EEA 10010110
+11:43:50.412426 [Main] [I] Testcase 351 got Attach parameters
+11:43:50.463054 [Main] [I] New Testcase 352 with EIA 00000001 EEA 10010111
+11:43:50.574065 [Main] [I] Testcase 352 got Attach parameters
+11:43:50.624609 [Main] [I] New Testcase 353 with EIA 00000001 EEA 10011000
+11:43:51.754283 [Main] [I] New Testcase 354 with EIA 00000001 EEA 10011001
+11:43:51.878162 [Main] [I] Testcase 354 got Attach parameters
+11:43:51.928824 [Main] [I] New Testcase 355 with EIA 00000001 EEA 10011010
+11:43:52.038289 [Main] [I] Testcase 355 got Attach parameters
+11:43:52.089303 [Main] [I] New Testcase 356 with EIA 00000001 EEA 10011011
+11:43:52.209149 [Main] [I] Testcase 356 got Attach parameters
+11:43:52.259593 [Main] [I] New Testcase 357 with EIA 00000001 EEA 10011100
+11:43:53.391166 [Main] [I] New Testcase 358 with EIA 00000001 EEA 10011101
+11:43:53.479114 [Main] [I] Testcase 358 got Attach parameters
+11:43:53.529893 [Main] [I] New Testcase 359 with EIA 00000001 EEA 10011110
+11:43:53.657279 [Main] [I] Testcase 359 got Attach parameters
+11:43:53.708101 [Main] [I] New Testcase 360 with EIA 00000001 EEA 10011111
+11:43:54.383137 [Main] [I] Testcase 360 got Attach parameters
+11:43:54.434214 [Main] [I] New Testcase 361 with EIA 00000001 EEA 10100000
+11:43:54.551065 [Main] [I] Testcase 361 got Attach parameters
+11:43:54.601198 [Main] [I] New Testcase 362 with EIA 00000001 EEA 10100001
+11:43:55.730257 [Main] [I] New Testcase 363 with EIA 00000001 EEA 10100010
+11:43:55.825073 [Main] [I] Testcase 363 got Attach parameters
+11:43:55.875902 [Main] [I] New Testcase 364 with EIA 00000001 EEA 10100011
+11:43:56.980372 [Main] [I] New Testcase 365 with EIA 00000001 EEA 10100100
+11:43:58.085919 [Main] [I] New Testcase 366 with EIA 00000001 EEA 10100101
+11:43:59.189989 [Main] [I] New Testcase 367 with EIA 00000001 EEA 10100110
+11:44:00.296208 [Main] [I] New Testcase 368 with EIA 00000001 EEA 10100111
+11:44:00.425243 [Main] [I] Testcase 368 got Attach parameters
+11:44:00.476338 [Main] [I] New Testcase 369 with EIA 00000001 EEA 10101000
+11:44:01.597881 [Main] [I] New Testcase 370 with EIA 00000001 EEA 10101001
+11:44:01.728011 [Main] [I] Testcase 370 got Attach parameters
+11:44:01.779106 [Main] [I] New Testcase 371 with EIA 00000001 EEA 10101010
+11:44:01.890125 [Main] [I] Testcase 371 got Attach parameters
+11:44:01.940943 [Main] [I] New Testcase 372 with EIA 00000001 EEA 10101011
+11:44:03.044398 [Main] [I] New Testcase 373 with EIA 00000001 EEA 10101100
+11:44:04.157654 [Main] [I] New Testcase 374 with EIA 00000001 EEA 10101101
+11:44:04.274051 [Main] [I] Testcase 374 got Attach parameters
+11:44:04.324799 [Main] [I] New Testcase 375 with EIA 00000001 EEA 10101110
+11:44:04.444113 [Main] [I] Testcase 375 got Attach parameters
+11:44:04.494731 [Main] [I] New Testcase 376 with EIA 00000001 EEA 10101111
+11:44:05.620327 [Main] [I] New Testcase 377 with EIA 00000001 EEA 10110000
+11:44:05.744166 [Main] [I] Testcase 377 got Attach parameters
+11:44:05.794806 [Main] [I] New Testcase 378 with EIA 00000001 EEA 10110001
+11:44:06.906826 [Main] [I] New Testcase 379 with EIA 00000001 EEA 10110010
+11:44:07.028221 [Main] [I] Testcase 379 got Attach parameters
+11:44:07.079083 [Main] [I] New Testcase 380 with EIA 00000001 EEA 10110011
+11:44:08.187842 [Main] [I] New Testcase 381 with EIA 00000001 EEA 10110100
+11:44:08.291179 [Main] [I] Testcase 381 got Attach parameters
+11:44:08.341316 [Main] [I] New Testcase 382 with EIA 00000001 EEA 10110101
+11:44:08.450199 [Main] [I] Testcase 382 got Attach parameters
+11:44:08.500956 [Main] [I] New Testcase 383 with EIA 00000001 EEA 10110110
+11:44:09.603992 [Main] [I] New Testcase 384 with EIA 00000001 EEA 10110111
+11:44:09.704205 [Main] [I] Testcase 384 got Attach parameters
+11:44:09.754294 [Main] [I] New Testcase 385 with EIA 00000001 EEA 10111000
+11:44:09.872220 [Main] [I] Testcase 385 got Attach parameters
+11:44:09.922415 [Main] [I] New Testcase 386 with EIA 00000001 EEA 10111001
+11:44:11.025131 [Main] [I] New Testcase 387 with EIA 00000001 EEA 10111010
+11:44:12.147109 [Main] [I] New Testcase 388 with EIA 00000001 EEA 10111011
+11:44:12.286202 [Main] [I] Testcase 388 got Attach parameters
+11:44:12.336984 [Main] [I] New Testcase 389 with EIA 00000001 EEA 10111100
+11:44:12.443162 [Main] [I] Testcase 389 got Attach parameters
+11:44:12.494007 [Main] [I] New Testcase 390 with EIA 00000001 EEA 10111101
+11:44:13.618778 [Main] [I] New Testcase 391 with EIA 00000001 EEA 10111110
+11:44:14.742493 [Main] [I] New Testcase 392 with EIA 00000001 EEA 10111111
+11:44:14.857209 [Main] [I] Testcase 392 got Attach parameters
+11:44:14.908228 [Main] [I] New Testcase 393 with EIA 00000001 EEA 11000000
+11:44:15.018060 [Main] [I] Testcase 393 got Attach parameters
+11:44:15.068850 [Main] [I] New Testcase 394 with EIA 00000001 EEA 11000001
+11:44:15.208218 [Main] [I] Testcase 394 got Attach parameters
+11:44:15.258628 [Main] [I] New Testcase 395 with EIA 00000001 EEA 11000010
+11:44:16.382136 [Main] [I] New Testcase 396 with EIA 00000001 EEA 11000011
+11:44:17.512618 [Main] [I] New Testcase 397 with EIA 00000001 EEA 11000100
+11:44:17.624527 [Main] [I] Testcase 397 got Attach parameters
+11:44:17.675637 [Main] [I] New Testcase 398 with EIA 00000001 EEA 11000101
+11:44:18.779681 [Main] [I] New Testcase 399 with EIA 00000001 EEA 11000110
+11:44:18.896274 [Main] [I] Testcase 399 got Attach parameters
+11:44:18.947047 [Main] [I] New Testcase 400 with EIA 00000001 EEA 11000111
+11:44:20.051153 [Main] [I] New Testcase 401 with EIA 00000010 EEA 00000000
+11:44:20.160132 [Main] [I] Testcase 401 got Attach parameters
+11:44:20.210851 [Main] [I] New Testcase 402 with EIA 00000010 EEA 00000001
+11:44:20.305188 [Main] [I] Testcase 402 got Attach parameters
+11:44:20.355679 [Main] [I] New Testcase 403 with EIA 00000010 EEA 00000010
+11:44:21.458617 [Main] [I] New Testcase 404 with EIA 00000010 EEA 00000011
+11:44:21.579303 [Main] [I] Testcase 404 got Attach parameters
+11:44:21.629771 [Main] [I] New Testcase 405 with EIA 00000010 EEA 00000100
+11:44:22.732504 [Main] [I] New Testcase 406 with EIA 00000010 EEA 00000101
+11:44:23.838211 [Main] [I] New Testcase 407 with EIA 00000010 EEA 00000110
+11:44:24.963010 [Main] [I] New Testcase 408 with EIA 00000010 EEA 00000111
+11:44:25.077072 [Main] [I] Testcase 408 got Attach parameters
+11:44:25.127435 [Main] [I] New Testcase 409 with EIA 00000010 EEA 00001000
+11:44:25.240186 [Main] [I] Testcase 409 got Attach parameters
+11:44:25.290838 [Main] [I] New Testcase 410 with EIA 00000010 EEA 00001001
+11:44:26.420681 [Main] [I] New Testcase 411 with EIA 00000010 EEA 00001010
+11:44:27.535450 [Main] [I] New Testcase 412 with EIA 00000010 EEA 00001011
+11:44:28.639755 [Main] [I] New Testcase 413 with EIA 00000010 EEA 00001100
+11:44:29.748465 [Main] [I] New Testcase 414 with EIA 00000010 EEA 00001101
+11:44:29.886055 [Main] [I] Testcase 414 got Attach parameters
+11:44:29.937077 [Main] [I] New Testcase 415 with EIA 00000010 EEA 00001110
+11:44:30.051228 [Main] [I] Testcase 415 got Attach parameters
+11:44:30.102030 [Main] [I] New Testcase 416 with EIA 00000010 EEA 00001111
+11:44:31.228956 [Main] [I] New Testcase 417 with EIA 00000010 EEA 00010000
+11:44:32.356701 [Main] [I] New Testcase 418 with EIA 00000010 EEA 00010001
+11:44:33.040148 [Main] [I] Testcase 418 got Attach parameters
+11:44:33.090937 [Main] [I] New Testcase 419 with EIA 00000010 EEA 00010010
+11:44:33.211131 [Main] [I] Testcase 419 got Attach parameters
+11:44:33.261748 [Main] [I] New Testcase 420 with EIA 00000010 EEA 00010011
+11:44:34.389189 [Main] [I] New Testcase 421 with EIA 00000010 EEA 00010100
+11:44:34.490204 [Main] [I] Testcase 421 got Attach parameters
+11:44:34.541287 [Main] [I] New Testcase 422 with EIA 00000010 EEA 00010101
+11:44:34.627150 [Main] [I] Testcase 422 got Attach parameters
+11:44:34.677787 [Main] [I] New Testcase 423 with EIA 00000010 EEA 00010110
+11:44:35.780958 [Main] [I] New Testcase 424 with EIA 00000010 EEA 00010111
+11:44:35.889077 [Main] [I] Testcase 424 got Attach parameters
+11:44:35.939665 [Main] [I] New Testcase 425 with EIA 00000010 EEA 00011000
+11:44:37.042825 [Main] [I] New Testcase 426 with EIA 00000010 EEA 00011001
+11:44:37.139202 [Main] [I] Testcase 426 got Attach parameters
+11:44:37.189788 [Main] [I] New Testcase 427 with EIA 00000010 EEA 00011010
+11:44:38.293564 [Main] [I] New Testcase 428 with EIA 00000010 EEA 00011011
+11:44:38.427156 [Main] [I] Testcase 428 got Attach parameters
+11:44:38.478309 [Main] [I] New Testcase 429 with EIA 00000010 EEA 00011100
+11:44:39.605258 [Main] [I] New Testcase 430 with EIA 00000010 EEA 00011101
+11:44:39.703007 [Main] [I] Testcase 430 got Attach parameters
+11:44:39.753214 [Main] [I] New Testcase 431 with EIA 00000010 EEA 00011110
+11:44:39.853243 [Main] [I] Testcase 431 got Attach parameters
+11:44:39.904111 [Main] [I] New Testcase 432 with EIA 00000010 EEA 00011111
+11:44:40.010505 [Main] [I] Testcase 432 got Attach parameters
+11:44:40.061330 [Main] [I] New Testcase 433 with EIA 00000010 EEA 00100000
+11:44:40.182221 [Main] [I] Testcase 433 got Attach parameters
+11:44:40.233224 [Main] [I] New Testcase 434 with EIA 00000010 EEA 00100001
+11:44:41.361259 [Main] [I] New Testcase 435 with EIA 00000010 EEA 00100010
+11:44:41.487205 [Main] [I] Testcase 435 got Attach parameters
+11:44:41.538294 [Main] [I] New Testcase 436 with EIA 00000010 EEA 00100011
+11:44:42.662207 [Main] [I] New Testcase 437 with EIA 00000010 EEA 00100100
+11:44:43.765154 [Main] [I] New Testcase 438 with EIA 00000010 EEA 00100101
+11:44:43.891033 [Main] [I] Testcase 438 got Attach parameters
+11:44:43.941585 [Main] [I] New Testcase 439 with EIA 00000010 EEA 00100110
+11:44:44.038183 [Main] [I] Testcase 439 got Attach parameters
+11:44:44.088878 [Main] [I] New Testcase 440 with EIA 00000010 EEA 00100111
+11:44:44.192185 [Main] [I] Testcase 440 got Attach parameters
+11:44:44.243245 [Main] [I] New Testcase 441 with EIA 00000010 EEA 00101000
+11:44:45.345976 [Main] [I] New Testcase 442 with EIA 00000010 EEA 00101001
+11:44:45.767219 [Main] [I] Testcase 442 got Attach parameters
+11:44:45.818211 [Main] [I] New Testcase 443 with EIA 00000010 EEA 00101010
+11:44:45.944046 [Main] [I] Testcase 443 got Attach parameters
+11:44:45.994638 [Main] [I] New Testcase 444 with EIA 00000010 EEA 00101011
+11:44:46.111381 [Main] [I] Testcase 444 got Attach parameters
+11:44:46.162141 [Main] [I] New Testcase 445 with EIA 00000010 EEA 00101100
+11:44:47.264956 [Main] [I] New Testcase 446 with EIA 00000010 EEA 00101101
+11:44:48.379056 [Main] [I] New Testcase 447 with EIA 00000010 EEA 00101110
+11:44:49.483257 [Main] [I] New Testcase 448 with EIA 00000010 EEA 00101111
+11:44:49.618063 [Main] [I] Testcase 448 got Attach parameters
+11:44:49.668321 [Main] [I] New Testcase 449 with EIA 00000010 EEA 00110000
+11:44:49.794230 [Main] [I] Testcase 449 got Attach parameters
+11:44:49.844744 [Main] [I] New Testcase 450 with EIA 00000010 EEA 00110001
+11:44:50.947890 [Main] [I] New Testcase 451 with EIA 00000010 EEA 00110010
+11:44:51.069233 [Main] [I] Testcase 451 got Attach parameters
+11:44:51.120104 [Main] [I] New Testcase 452 with EIA 00000010 EEA 00110011
+11:44:51.240151 [Main] [I] Testcase 452 got Attach parameters
+11:44:51.291246 [Main] [I] New Testcase 453 with EIA 00000010 EEA 00110100
+11:44:52.395219 [Main] [I] New Testcase 454 with EIA 00000010 EEA 00110101
+11:44:52.487252 [Main] [I] Testcase 454 got Attach parameters
+11:44:52.537972 [Main] [I] New Testcase 455 with EIA 00000010 EEA 00110110
+11:44:52.650222 [Main] [I] Testcase 455 got Attach parameters
+11:44:52.701113 [Main] [I] New Testcase 456 with EIA 00000010 EEA 00110111
+11:44:53.819479 [Main] [I] New Testcase 457 with EIA 00000010 EEA 00111000
+11:44:54.928447 [Main] [I] New Testcase 458 with EIA 00000010 EEA 00111001
+11:44:56.050312 [Main] [I] New Testcase 459 with EIA 00000010 EEA 00111010
+11:44:56.182090 [Main] [I] Testcase 459 got Attach parameters
+11:44:56.232702 [Main] [I] New Testcase 460 with EIA 00000010 EEA 00111011
+11:44:57.338189 [Main] [I] New Testcase 461 with EIA 00000010 EEA 00111100
+11:44:57.443099 [Main] [I] Testcase 461 got Attach parameters
+11:44:57.493570 [Main] [I] New Testcase 462 with EIA 00000010 EEA 00111101
+11:44:57.602100 [Main] [I] Testcase 462 got Attach parameters
+11:44:57.653159 [Main] [I] New Testcase 463 with EIA 00000010 EEA 00111110
+11:44:58.784017 [Main] [I] New Testcase 464 with EIA 00000010 EEA 00111111
+11:44:58.911081 [Main] [I] Testcase 464 got Attach parameters
+11:44:58.961350 [Main] [I] New Testcase 465 with EIA 00000010 EEA 01000000
+11:44:59.074050 [Main] [I] Testcase 465 got Attach parameters
+11:44:59.124159 [Main] [I] New Testcase 466 with EIA 00000010 EEA 01000001
+11:45:00.250804 [Main] [I] New Testcase 467 with EIA 00000010 EEA 01000010
+11:45:00.375081 [Main] [I] Testcase 467 got Attach parameters
+11:45:00.425915 [Main] [I] New Testcase 468 with EIA 00000010 EEA 01000011
+11:45:00.555041 [Main] [I] Testcase 468 got Attach parameters
+11:45:00.605490 [Main] [I] New Testcase 469 with EIA 00000010 EEA 01000100
+11:45:01.726206 [Main] [I] New Testcase 470 with EIA 00000010 EEA 01000101
+11:45:02.831700 [Main] [I] New Testcase 471 with EIA 00000010 EEA 01000110
+11:45:02.994332 [Main] [I] Testcase 471 got Attach parameters
+11:45:03.044430 [Main] [I] New Testcase 472 with EIA 00000010 EEA 01000111
+11:45:03.189100 [Main] [I] Testcase 472 got Attach parameters
+11:45:03.240097 [Main] [I] New Testcase 473 with EIA 00000010 EEA 01001000
+11:45:04.344963 [Main] [I] New Testcase 474 with EIA 00000010 EEA 01001001
+11:45:04.482156 [Main] [I] Testcase 474 got Attach parameters
+11:45:04.533226 [Main] [I] New Testcase 475 with EIA 00000010 EEA 01001010
+11:45:04.650121 [Main] [I] Testcase 475 got Attach parameters
+11:45:04.700465 [Main] [I] New Testcase 476 with EIA 00000010 EEA 01001011
+11:45:05.805127 [Main] [I] New Testcase 477 with EIA 00000010 EEA 01001100
+11:45:05.912135 [Main] [I] Testcase 477 got Attach parameters
+11:45:05.962841 [Main] [I] New Testcase 478 with EIA 00000010 EEA 01001101
+11:45:06.083165 [Main] [I] Testcase 478 got Attach parameters
+11:45:06.134211 [Main] [I] New Testcase 479 with EIA 00000010 EEA 01001110
+11:45:07.237364 [Main] [I] New Testcase 480 with EIA 00000010 EEA 01001111
+11:45:08.341372 [Main] [I] New Testcase 481 with EIA 00000010 EEA 01010000
+11:45:08.469462 [Main] [I] Testcase 481 got Attach parameters
+11:45:08.520311 [Main] [I] New Testcase 482 with EIA 00000010 EEA 01010001
+11:45:08.653118 [Main] [I] Testcase 482 got Attach parameters
+11:45:08.703267 [Main] [I] New Testcase 483 with EIA 00000010 EEA 01010010
+11:45:09.338181 [Main] [I] Testcase 483 got Attach parameters
+11:45:09.388530 [Main] [I] New Testcase 484 with EIA 00000010 EEA 01010011
+11:45:09.524218 [Main] [I] Testcase 484 got Attach parameters
+11:45:09.574640 [Main] [I] New Testcase 485 with EIA 00000010 EEA 01010100
+11:45:10.684706 [Main] [I] New Testcase 486 with EIA 00000010 EEA 01010101
+11:45:11.809212 [Main] [I] New Testcase 487 with EIA 00000010 EEA 01010110
+11:45:12.934655 [Main] [I] New Testcase 488 with EIA 00000010 EEA 01010111
+11:45:14.058441 [Main] [I] New Testcase 489 with EIA 00000010 EEA 01011000
+11:45:14.191094 [Main] [I] Testcase 489 got Attach parameters
+11:45:14.241600 [Main] [I] New Testcase 490 with EIA 00000010 EEA 01011001
+11:45:14.351102 [Main] [I] Testcase 490 got Attach parameters
+11:45:14.402218 [Main] [I] New Testcase 491 with EIA 00000010 EEA 01011010
+11:45:15.528833 [Main] [I] New Testcase 492 with EIA 00000010 EEA 01011011
+11:45:16.651900 [Main] [I] New Testcase 493 with EIA 00000010 EEA 01011100
+11:45:16.763177 [Main] [I] Testcase 493 got Attach parameters
+11:45:16.813578 [Main] [I] New Testcase 494 with EIA 00000010 EEA 01011101
+11:45:16.927251 [Main] [I] Testcase 494 got Attach parameters
+11:45:16.977346 [Main] [I] New Testcase 495 with EIA 00000010 EEA 01011110
+11:45:18.080300 [Main] [I] New Testcase 496 with EIA 00000010 EEA 01011111
+11:45:18.228180 [Main] [I] Testcase 496 got Attach parameters
+11:45:18.279031 [Main] [I] New Testcase 497 with EIA 00000010 EEA 01100000
+11:45:18.425152 [Main] [I] Testcase 497 got Attach parameters
+11:45:18.475644 [Main] [I] New Testcase 498 with EIA 00000010 EEA 01100001
+11:45:19.600420 [Main] [I] New Testcase 499 with EIA 00000010 EEA 01100010
+11:45:20.725348 [Main] [I] New Testcase 500 with EIA 00000010 EEA 01100011
+11:45:20.820181 [Main] [I] Testcase 500 got Attach parameters
+11:45:20.870614 [Main] [I] New Testcase 501 with EIA 00000010 EEA 01100100
+11:45:21.995655 [Main] [I] New Testcase 502 with EIA 00000010 EEA 01100101
+11:45:22.126041 [Main] [I] Testcase 502 got Attach parameters
+11:45:22.176798 [Main] [I] New Testcase 503 with EIA 00000010 EEA 01100110
+11:45:22.294130 [Main] [I] Testcase 503 got Attach parameters
+11:45:22.344595 [Main] [I] New Testcase 504 with EIA 00000010 EEA 01100111
+11:45:23.452975 [Main] [I] New Testcase 505 with EIA 00000010 EEA 01101000
+11:45:24.558029 [Main] [I] New Testcase 506 with EIA 00000010 EEA 01101001
+11:45:24.668151 [Main] [I] Testcase 506 got Attach parameters
+11:45:24.719257 [Main] [I] New Testcase 507 with EIA 00000010 EEA 01101010
+11:45:24.839040 [Main] [I] Testcase 507 got Attach parameters
+11:45:24.889655 [Main] [I] New Testcase 508 with EIA 00000010 EEA 01101011
+11:45:25.994930 [Main] [I] New Testcase 509 with EIA 00000010 EEA 01101100
+Closing log

@@ -1,0 +1,540 @@
+2021-03-20T16:11:39+01:00[36m [INFO][AMF][App] [0mamf
+2021-03-20T16:11:39+01:00[36m [INFO][AMF][App] [0mAMF version:  
+	free5GC version: v3.0.5-3-gd78b094
+	build time:      2021-03-20T15:11:31Z
+	commit hash:     +2ea87f3
+	commit time:     2021-03-20T14:17:26Z
+	go version:      go1.14.4 linux/amd64
+2021-03-20T16:11:39+01:00[36m [INFO][AMF][Init] [0mAMF Log level is set to [debug] level
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][NAS] [0mset log level : info
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][NAS] [0mset report call : false
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][NGAP] [0mset log level : info
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][NGAP] [0mset report call : false
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][FSM] [0mset log level : info
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][FSM] [0mset report call : false
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][Aper] [0mset log level : info
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][Aper] [0mset report call : false
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][Path] [0mset log level : info
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][Path] [0mset report call : false
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][OAPI] [0mset log level : info
+2021-03-20T16:11:39+01:00[36m [INFO][LIB][OAPI] [0mset report call : false
+2021-03-20T16:11:39+01:00[36m [INFO][AMF][CFG] [0mconfig version [1.0.0]
+2021-03-20T16:11:39+01:00[36m [INFO][AMF][Init] [0mServer started
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /namf-callback/v1/        --> github.com/free5gc/amf/httpcallback.Index (4 handlers)
+[GIN-debug] POST   /namf-callback/v1/smContextStatus/:guti/:pduSessionId --> github.com/free5gc/amf/httpcallback.HTTPSmContextStatusNotify (4 handlers)
+[GIN-debug] POST   /namf-callback/v1/am-policy/:polAssoId/update --> github.com/free5gc/amf/httpcallback.HTTPAmPolicyControlUpdateNotifyUpdate (4 handlers)
+[GIN-debug] POST   /namf-callback/v1/am-policy/:polAssoId/terminate --> github.com/free5gc/amf/httpcallback.HTTPAmPolicyControlUpdateNotifyTerminate (4 handlers)
+[GIN-debug] POST   /namf-callback/v1/n1-message-notify --> github.com/free5gc/amf/httpcallback.HTTPN1MessageNotify (4 handlers)
+[GIN-debug] GET    /namf-oam/v1/             --> github.com/free5gc/amf/oam.Index (4 handlers)
+[GIN-debug] GET    /namf-oam/v1/registered-ue-context --> github.com/free5gc/amf/oam.HTTPRegisteredUEContext (4 handlers)
+[GIN-debug] GET    /namf-oam/v1/registered-ue-context/:supi --> github.com/free5gc/amf/oam.HTTPRegisteredUEContext (4 handlers)
+[GIN-debug] GET    /namf-comm/v1/            --> github.com/free5gc/amf/communication.Index (4 handlers)
+[GIN-debug] PUT    /namf-comm/v1/subscriptions/:subscriptionId --> github.com/free5gc/amf/communication.HTTPAMFStatusChangeSubscribeModify (4 handlers)
+[GIN-debug] DELETE /namf-comm/v1/subscriptions/:subscriptionId --> github.com/free5gc/amf/communication.HTTPAMFStatusChangeUnSubscribe (4 handlers)
+[GIN-debug] PUT    /namf-comm/v1/ue-contexts/:ueContextId --> github.com/free5gc/amf/communication.HTTPCreateUEContext (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/ue-contexts/:ueContextId/assign-ebi --> github.com/free5gc/amf/communication.HTTPEBIAssignment (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/ue-contexts/:ueContextId/transfer-update --> github.com/free5gc/amf/communication.HTTPRegistrationStatusUpdate (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/ue-contexts/:ueContextId/release --> github.com/free5gc/amf/communication.HTTPReleaseUEContext (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/ue-contexts/:ueContextId/transfer --> github.com/free5gc/amf/communication.HTTPUEContextTransfer (4 handlers)
+[GIN-debug] DELETE /namf-comm/v1/ue-contexts/:ueContextId/n1-n2-messages/subscriptions/:subscriptionId --> github.com/free5gc/amf/communication.HTTPN1N2MessageUnSubscribe (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/ue-contexts/:ueContextId/n1-n2-messages --> github.com/free5gc/amf/communication.HTTPN1N2MessageTransfer (4 handlers)
+[GIN-debug] GET    /namf-comm/v1/ue-contexts/:ueContextId/n1-n2-messages/:n1N2MessageId --> github.com/free5gc/amf/communication.HTTPN1N2MessageTransferStatus (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/ue-contexts/:ueContextId/n1-n2-messages/subscriptions --> github.com/free5gc/amf/communication.HTTPN1N2MessageSubscribe (4 handlers)
+[GIN-debug] DELETE /namf-comm/v1/non-ue-n2-messages/subscriptions/:n2NotifySubscriptionId --> github.com/free5gc/amf/communication.HTTPNonUeN2InfoUnSubscribe (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/non-ue-n2-messages/transfer --> github.com/free5gc/amf/communication.HTTPNonUeN2MessageTransfer (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/non-ue-n2-messages/subscriptions --> github.com/free5gc/amf/communication.HTTPNonUeN2InfoSubscribe (4 handlers)
+[GIN-debug] POST   /namf-comm/v1/subscriptions --> github.com/free5gc/amf/communication.HTTPAMFStatusChangeSubscribe (4 handlers)
+[GIN-debug] GET    /namf-evts/v1/            --> github.com/free5gc/amf/eventexposure.Index (4 handlers)
+[GIN-debug] DELETE /namf-evts/v1/subscriptions/:subscriptionId --> github.com/free5gc/amf/eventexposure.HTTPDeleteSubscription (4 handlers)
+[GIN-debug] PATCH  /namf-evts/v1/subscriptions/:subscriptionId --> github.com/free5gc/amf/eventexposure.HTTPModifySubscription (4 handlers)
+[GIN-debug] POST   /namf-evts/v1/subscriptions --> github.com/free5gc/amf/eventexposure.HTTPCreateSubscription (4 handlers)
+[GIN-debug] GET    /namf-mt/v1/              --> github.com/free5gc/amf/mt.Index (4 handlers)
+[GIN-debug] GET    /namf-mt/v1/ue-contexts/:ueContextId --> github.com/free5gc/amf/mt.HTTPProvideDomainSelectionInfo (4 handlers)
+[GIN-debug] POST   /namf-mt/v1/ue-contexts/:ueContextId/ue-reachind --> github.com/free5gc/amf/mt.HTTPEnableUeReachability (4 handlers)
+[GIN-debug] GET    /namf-loc/v1/             --> github.com/free5gc/amf/location.Index (4 handlers)
+[GIN-debug] POST   /namf-loc/v1/:ueContextId/provide-loc-info --> github.com/free5gc/amf/location.HTTPProvideLocationInfo (4 handlers)
+[GIN-debug] POST   /namf-loc/v1/:ueContextId/provide-pos-info --> github.com/free5gc/amf/location.HTTPProvidePositioningInfo (4 handlers)
+2021-03-20T16:11:39+01:00[36m [INFO][AMF][Util] [0mamfconfig Info: Version[1.0.0] Description[AMF initial local configuration]
+2021-03-20T16:11:39+01:00[37m [DEBU][AMF][NGAP] [0mResolved address '10.200.200.129' to 10.200.200.129
+2021-03-20T16:11:39+01:00[36m [INFO][AMF][NGAP] [0mListen on 10.200.200.129:38412
+2021-03-20T16:11:48+01:00[37m [DEBU][AMF][NGAP] [0mGet default sent param[value: &{Stream:0 SSN:0 Flags:0 _:0 PPID:0 Context:0 TTL:0 TSN:0 CumTSN:0 AssocID:0}]
+2021-03-20T16:11:48+01:00[37m [DEBU][AMF][NGAP] [0mSet default sent param[value: &{Stream:0 SSN:0 Flags:0 _:0 PPID:1006632960 Context:0 TTL:0 TSN:0 CumTSN:0 AssocID:0}]
+2021-03-20T16:11:48+01:00[37m [DEBU][AMF][NGAP] [0mSubscribe SCTP event[DATA_IO, SHUTDOWN_EVENT, ASSOCIATION_CHANGE]
+2021-03-20T16:11:48+01:00[37m [DEBU][AMF][NGAP] [0mSet read buffer to 8192 bytes
+2021-03-20T16:11:48+01:00[37m [DEBU][AMF][NGAP] [0mSet read timeout: {Sec:2 Usec:0}
+2021-03-20T16:11:48+01:00[36m [INFO][AMF][NGAP] [0m[AMF] SCTP Accept from: 10.200.200.8:54213
+2021-03-20T16:11:48+01:00[36m [INFO][AMF][NGAP] [0mCreate a new NG connection for: 10.200.200.8:54213
+2021-03-20T16:11:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:54213] [0mHandle NG Setup request
+2021-03-20T16:11:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:54213] [0mSend NG-Setup response
+2021-03-20T16:11:48+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:54213] [0mSend NGAP message To Ran
+2021-03-20T16:11:48+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:54213] [0mWrite 53 bytes
+2021-03-20T16:11:50+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:11:52+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:11:54+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:11:56+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:11:58+01:00[36m [INFO][AMF][NGAP] [0mHandle SCTP Notification[addr: 10.200.200.8:54213]
+2021-03-20T16:11:58+01:00[36m [INFO][AMF][NGAP][10.200.200.8:54213] [0mSCTP_SHUTDOWN_EVENT notification, close the connection
+2021-03-20T16:11:58+01:00[36m [INFO][AMF][NGAP][10.200.200.8:54213] [0mRemove RAN Context[ID: <PlmnID: {Mcc:001 Mnc:01}, GNbID: 0012345>]
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP] [0mRead EOF from client
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP] [0mGet default sent param[value: &{Stream:0 SSN:0 Flags:0 _:0 PPID:0 Context:0 TTL:0 TSN:0 CumTSN:0 AssocID:0}]
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP] [0mSet default sent param[value: &{Stream:0 SSN:0 Flags:0 _:0 PPID:1006632960 Context:0 TTL:0 TSN:0 CumTSN:0 AssocID:0}]
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP] [0mSubscribe SCTP event[DATA_IO, SHUTDOWN_EVENT, ASSOCIATION_CHANGE]
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP] [0mSet read buffer to 8192 bytes
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP] [0mSet read timeout: {Sec:2 Usec:0}
+2021-03-20T16:11:58+01:00[36m [INFO][AMF][NGAP] [0m[AMF] SCTP Accept from: 10.200.200.8:35042
+2021-03-20T16:11:58+01:00[36m [INFO][AMF][NGAP] [0mCreate a new NG connection for: 10.200.200.8:35042
+2021-03-20T16:11:58+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle NG Setup request
+2021-03-20T16:11:58+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mSend NG-Setup response
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:11:58+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 53 bytes
+2021-03-20T16:12:00+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:02+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:04+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:06+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:08+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:10+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:12+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:14+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:16+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:18+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:20+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:20+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:12:22+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:22+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:12:24+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:24+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:12:26+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:28+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:30+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:32+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:34+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:36+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:38+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:40+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:42+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:44+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:46+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:48+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:50+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:52+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:54+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:56+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:12:58+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:00+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:02+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:04+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:06+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:08+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:10+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:12+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:14+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:16+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:18+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:20+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:22+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:24+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:26+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:28+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:31+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:31+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:13:33+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:35+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:37+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:39+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:41+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:43+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:43+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:13:45+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:47+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:49+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:51+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:53+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:55+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:57+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:13:59+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:01+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:03+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:05+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:07+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:09+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:09+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:14:11+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:13+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:15+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:17+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:19+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:21+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:23+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:25+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:27+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:29+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:31+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:33+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:33+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:14:35+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:37+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:39+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:41+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:43+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:45+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:47+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:49+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:51+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:53+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:55+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:55+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:14:57+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:14:59+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:01+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:03+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:03+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:15:05+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:07+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:09+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:11+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:13+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:15+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:17+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:17+01:00[37m [DEBU][AMF][NGAP] [0mSCTPRead: interrupted system call
+2021-03-20T16:15:19+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:15:20+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Initial UE Message
+2021-03-20T16:15:20+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mNew RanUe [RanUeNgapID: 179]
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mTrigger initial Context Setup procedure
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[DeRegistered]
+2021-03-20T16:15:21+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Registration Request
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mRegistrationType: Initial Registration
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI: suci-0-001-01-17-2-27-0317de7c618deb5f2de5a2a380c0c12e5b67ffca414d6853cb991ddcd72059fe6dc632b72410d784fec2dc1d57f1
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM] [0mExit event
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM] [0mStart Authentication
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mEntryEvent at GMM State[Authentication]
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:21+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:21+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:21+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:21+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:21+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:21+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:21+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:21+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:21+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:23+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #1
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:15:23+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:23+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:23+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:23+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:23+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:23+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:26+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #2
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:15:26+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:26+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:26+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:26+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:26+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:26+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:30+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #3
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:15:30+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:30+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:30+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:30+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:30+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:30+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:35+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #4
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:15:35+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:35+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:35+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:35+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:35+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:35+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:41+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #5
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:15:41+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:41+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:41+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:41+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:41+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:41+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:48+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #6
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:15:48+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:48+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:48+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:48+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:48+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:48+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:56+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #7
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:15:56+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:15:56+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:15:56+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:15:56+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:15:56+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:15:56+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:16:05+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:05+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:05+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:05+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #8
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:16:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:16:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:16:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:16:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:06+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:06+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:06+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:16:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:16:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:16+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #9
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:16:16+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:16:16+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:16+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:16+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:16:16+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:16:16+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:27+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #10
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:16:27+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:16:27+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:27+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:27+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:16:27+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:16:27+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:39+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #11
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:16:39+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:16:39+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:39+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:39+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:16:39+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:16:39+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:52+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #12
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:16:52+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:16:52+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:16:52+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:16:52+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:16:52+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:16:52+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:17:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #13
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Failure
+2021-03-20T16:17:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: MAC Failure, UE is not the guy we're looking for.
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthRestartEvent at GMM State[Authentication]
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mAuthentication procedure
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mUE has SUCI / SUPI
+2021-03-20T16:17:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: requesting valid authentication for connected UE
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042] [0mHandle Uplink Nas Transport
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mUplink NAS Transport (RAN UE NGAP ID: 179)
+2021-03-20T16:17:06+01:00[37m [DEBU][AMF][GMM][AMF_UE_NGAP_ID:1] [0mGmmMessageEvent at GMM State[Authentication]
+2021-03-20T16:17:06+01:00[36m [INFO][AMF][GMM][AMF_UE_NGAP_ID:1] [0mHandle Authentication Response
+2021-03-20T16:17:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Forwarding Auth Reponse to real network
+2021-03-20T16:17:06+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: Probe for random UE
+2021-03-20T16:17:21+01:00[36m [INFO][AMF][NGAP][10.200.200.8:35042][AMF_UE_NGAP_ID:1] [0mSend Downlink Nas Transport
+2021-03-20T16:17:21+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mSend NGAP message To Ran
+2021-03-20T16:17:21+01:00[37m [DEBU][AMF][NGAP][10.200.200.8:35042] [0mWrite 66 bytes
+2021-03-20T16:17:21+01:00[33m [WARN][AMF][GMM][AMF_UE_NGAP_ID:1] [0mSUCI-Catcher: send Probe Request #14
+2021-03-20T16:17:23+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:25+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:27+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:29+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:31+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:33+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:35+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:37+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:39+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:41+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:43+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:45+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:47+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:50+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:52+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:54+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:56+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:17:58+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:18:00+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:18:02+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:18:04+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:18:06+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:18:08+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
+2021-03-20T16:18:10+01:00[37m [DEBU][AMF][NGAP] [0mSCTP read timeout
